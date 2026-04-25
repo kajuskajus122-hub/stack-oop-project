@@ -186,55 +186,6 @@ When running `python main.py`:
   [4] Peek / Inspect  [8] Clear stack
 ```
 
-## GitHub Setup & Upload
-
-### Initialize Git Repository
-
-```bash
-# Navigate to project directory
-cd "c:\Users\kajus\OneDrive\Documents\python"
-
-# Initialize Git
-git init
-git config user.name "Your Name"
-git config user.email "your.email@example.com"
-
-# Add all files
-git add .
-
-# Create initial commit
-git commit -m "Initial commit: Stack implementation with OOP principles and Factory pattern"
-```
-
-### Create GitHub Repository
-
-1. Go to https://github.com/new
-2. Repository name: `stack-project` (or any name you prefer)
-3. Description: "A comprehensive Stack data structure implementation demonstrating all four OOP pillars, design patterns, and best practices."
-4. Choose **Public** (so assessors can view it)
-5. **Do NOT** initialize with README (you already have one)
-6. Click "Create repository"
-
-### Connect & Push to GitHub
-
-```bash
-# Add GitHub remote (replace YOUR_USERNAME with your GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/stack-project.git
-
-# Push to GitHub
-git push -u origin main
-```
-
-### Repository Topics (Add these tags)
-
-- `object-oriented-programming`
-- `design-patterns`
-- `factory-method`
-- `data-structures`
-- `python`
-- `unit-testing`
-- `coursework`
-
 ## Documentation
 
 For detailed documentation including:
