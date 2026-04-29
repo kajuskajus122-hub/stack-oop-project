@@ -883,30 +883,6 @@ The result is **three working stack implementations** (Basic, Bounded, MinStack)
 
 ---
 
-## Resources
-
-### References and Further Reading
-
-1. **Design Patterns**
-   - Gang of Four: "Design Patterns: Elements of Reusable Object-Oriented Software"
-   - RefactoringGuru: https://refactoring.guru/design-patterns
-
-2. **Object-Oriented Programming**
-   - Sommerville, I. "Software Engineering" (10th Edition)
-   - Martin, R. C. "Clean Code: A Handbook of Agile Software Craftsmanship"
-
-3. **Python Best Practices**
-   - PEP 8 Style Guide: https://www.python.org/dev/peps/pep-0008/
-   - PEP 20 The Zen of Python: https://www.python.org/dev/peps/pep-0020/
-   - Real Python: https://realpython.com/
-
-4. **Data Structures**
-   - Cormen, Leiserson, Rivest, Stein: "Introduction to Algorithms"
-   - LeetCode: https://leetcode.com/
-
-5. **Testing**
-   - Python unittest Documentation: https://docs.python.org/3/library/unittest.html
-   - Test-Driven Development (TDD) Best Practices
 
 ### Project File Structure
 
