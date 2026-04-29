@@ -100,19 +100,17 @@ Upon running `python main.py`, users are presented with the following menu:
 
 The program successfully implements all specified requirements:
 
-✅ **Git & Github Integration** - Code is version-controlled and ready for upload to a Github repository
+ **4 OOP Pillars** - All four pillars are demonstrated throughout the codebase (see detailed analysis below)
 
-✅ **4 OOP Pillars** - All four pillars are demonstrated throughout the codebase (see detailed analysis below)
+**Design Pattern** - Factory Method pattern is implemented for flexible stack object creation
 
-✅ **Design Pattern** - Factory Method pattern is implemented for flexible stack object creation
+**Composition & Aggregation** - Multiple examples throughout the codebase
 
-✅ **Composition & Aggregation** - Multiple examples throughout the codebase
+**File I/O** - CSV-based persistence with save/load functionality
 
-✅ **File I/O** - CSV-based persistence with save/load functionality
+ **Unit Testing** - Comprehensive test suite using Python's `unittest` framework
 
-✅ **Unit Testing** - Comprehensive test suite using Python's `unittest` framework
-
-✅ **PEP8 Compliance** - Code follows Python style guidelines with proper docstrings and formatting
+ **PEP8 Compliance** - Code follows Python style guidelines with proper docstrings and formatting
 
 ### 4 Object-Oriented Programming Pillars
 
