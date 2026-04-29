@@ -677,15 +677,6 @@ class StackHistory:
 - The history could be cleared while stacks continue operating
 - Destroying history doesn't destroy the stacks it recorded
 
-**Comparison:**
-
-| Aspect | Composition | Aggregation |
-|--------|-------------|-------------|
-| Lifetime | Parent owns children; children die with parent | Children exist independently |
-| Creation | Parent creates children | Children created elsewhere |
-| References | "Part of" relationship | "References" relationship |
-| Example | MinStack → _min_tracker | StackHistory → OperationRecord |
-| Real-world | Book → Pages (pages are part of book) | Library → Books (books exist independently) |
 
 ---
 
