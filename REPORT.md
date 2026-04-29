@@ -199,9 +199,6 @@ The `BoundedStack` class inherits from `Stack` and adds capacity control:
 class BoundedStack(Stack):
     """A stack that enforces a maximum number of elements.
     
-    Inherits all behaviour from Stack and overrides push to enforce
-    a size limit (Inheritance + Polymorphism pillars).
-    """
 
     def __init__(self, max_size: int):
         if max_size <= 0:
