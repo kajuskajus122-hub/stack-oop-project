@@ -838,16 +838,6 @@ def filter_by_stack(self, stack_id: str) -> list[OperationRecord]:
 
 4. **User Experience**: The interactive menu-driven interface is intuitive and provides clear feedback for all operations.
 
-### Challenges and Solutions
-
-| Challenge | Solution |
-|-----------|----------|
-| Maintaining min value efficiently | Used auxiliary stack (O(1) retrieval instead of O(n)) |
-| Different stack behaviors (bounded, tracking) | Inheritance + Polymorphism to reuse base functionality |
-| Tight coupling between modules | Factory pattern to centralize object creation |
-| Circular imports | Used `state.py` module for shared global state |
-| CSV load order | Reversed elements after loading to restore LIFO order |
-
 ---
 
 ### Conclusions
@@ -910,6 +900,5 @@ python/
 
 ---
 
-**This coursework demonstrates mastery of OOP principles, design patterns, and professional Python development practices.**
 
 *Report last updated: April 2026*
